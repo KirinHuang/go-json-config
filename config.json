@@ -5,6 +5,9 @@
 		"value-array-2",
 		"value-array-3"
 	],
+	"key-object" : {
+		objctname: "objectName"
+	},
 	"key-int" : 1,
 	"key-bool" : true
 }

@@ -86,3 +86,17 @@ func ExampleBool() {
 	// Output:
 	// true
 }
+
+func ExampleOjbect() {
+	// content of config.json file
+	// {
+	//   "key-object": {
+	//     objectname: "objectName"
+	//   }
+	// }
+	config.Load("./config.json")
+	
+	value := config.Object("key-object");
+	
+	fmt.Println(value);
+}

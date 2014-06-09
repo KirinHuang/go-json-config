@@ -51,3 +51,8 @@ func Int(name string) int {
 func Bool(name string) bool {
 	return config[name].(bool)
 }
+
+// Object returns a object stored on given key
+func Object(name string) map[string]interface{} {
+	return config[name].(map[string]interface{})
+}
